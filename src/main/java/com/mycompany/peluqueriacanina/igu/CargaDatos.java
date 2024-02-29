@@ -40,6 +40,7 @@ public class CargaDatos extends javax.swing.JFrame {
         labelImageCargaDatos = new javax.swing.JLabel();
         btnGuardar = new javax.swing.JButton();
         btnLimpiar = new javax.swing.JButton();
+        jLabel1 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setPreferredSize(new java.awt.Dimension(895, 700));
@@ -150,8 +151,6 @@ public class CargaDatos extends javax.swing.JFrame {
                 .addContainerGap(19, Short.MAX_VALUE))
         );
 
-        labelImageCargaDatos.setIcon(new javax.swing.ImageIcon("C:\\Users\\Probando Uno\\OneDrive\\Escritorio\\4800_10_09.jpg")); // NOI18N
-
         btnGuardar.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
         btnGuardar.setIcon(new javax.swing.ImageIcon("C:\\Users\\Probando Uno\\OneDrive\\Escritorio\\simbolo-de-formato-de-archivo-sav.png")); // NOI18N
         btnGuardar.setText("Guardar");
@@ -170,6 +169,8 @@ public class CargaDatos extends javax.swing.JFrame {
             }
         });
 
+        jLabel1.setIcon(new javax.swing.ImageIcon("C:\\Users\\Probando Uno\\OneDrive\\Escritorio\\4800_10_09.jpg")); // NOI18N
+
         javax.swing.GroupLayout containerCargaDatosLayout = new javax.swing.GroupLayout(containerCargaDatos);
         containerCargaDatos.setLayout(containerCargaDatosLayout);
         containerCargaDatosLayout.setHorizontalGroup(
@@ -179,11 +180,13 @@ public class CargaDatos extends javax.swing.JFrame {
                 .addGroup(containerCargaDatosLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(containerCargaDatosLayout.createSequentialGroup()
                         .addComponent(containerLabelsAndTextFields, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 41, Short.MAX_VALUE)
+                        .addGap(18, 18, 18)
+                        .addComponent(jLabel1)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                         .addComponent(labelImageCargaDatos)
                         .addGap(29, 29, 29))
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, containerCargaDatosLayout.createSequentialGroup()
-                        .addGap(0, 0, Short.MAX_VALUE)
+                        .addGap(0, 281, Short.MAX_VALUE)
                         .addComponent(appTitle)
                         .addGap(265, 265, 265))))
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, containerCargaDatosLayout.createSequentialGroup()
@@ -200,16 +203,18 @@ public class CargaDatos extends javax.swing.JFrame {
                 .addComponent(appTitle)
                 .addGroup(containerCargaDatosLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(containerCargaDatosLayout.createSequentialGroup()
-                        .addGap(50, 50, 50)
-                        .addComponent(labelImageCargaDatos))
-                    .addGroup(containerCargaDatosLayout.createSequentialGroup()
                         .addGap(18, 18, 18)
-                        .addComponent(containerLabelsAndTextFields, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addComponent(containerLabelsAndTextFields, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(containerCargaDatosLayout.createSequentialGroup()
+                        .addGap(50, 50, 50)
+                        .addGroup(containerCargaDatosLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(jLabel1)
+                            .addComponent(labelImageCargaDatos))))
+                .addGap(18, 18, 18)
                 .addGroup(containerCargaDatosLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(btnLimpiar, javax.swing.GroupLayout.PREFERRED_SIZE, 62, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(btnGuardar, javax.swing.GroupLayout.PREFERRED_SIZE, 62, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addContainerGap(18, Short.MAX_VALUE))
+                .addContainerGap(127, Short.MAX_VALUE))
         );
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
@@ -258,6 +263,7 @@ public class CargaDatos extends javax.swing.JFrame {
     private javax.swing.JComboBox<String> cmbAtencionEspecial;
     private javax.swing.JPanel containerCargaDatos;
     private javax.swing.JPanel containerLabelsAndTextFields;
+    private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel labelAlergico;
     private javax.swing.JLabel labelAtencionEspecial;
     private javax.swing.JLabel labelCelularDuenio;
