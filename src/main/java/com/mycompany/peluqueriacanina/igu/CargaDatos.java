@@ -43,7 +43,6 @@ public class CargaDatos extends javax.swing.JFrame {
         jLabel1 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
-        setPreferredSize(new java.awt.Dimension(895, 700));
 
         appTitle.setFont(new java.awt.Font("Segoe UI", 1, 48)); // NOI18N
         appTitle.setText("Carga de Datos");
@@ -152,7 +151,7 @@ public class CargaDatos extends javax.swing.JFrame {
         );
 
         btnGuardar.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
-        btnGuardar.setIcon(new javax.swing.ImageIcon("C:\\Users\\Probando Uno\\OneDrive\\Escritorio\\simbolo-de-formato-de-archivo-sav.png")); // NOI18N
+        btnGuardar.setIcon(new javax.swing.ImageIcon("C:\\Users\\Probando Uno\\OneDrive\\Documentos\\NetBeansProjects\\PeluqueriaCanina\\src\\main\\resources\\simbolo-de-formato-de-archivo-sav.png")); // NOI18N
         btnGuardar.setText("Guardar");
         btnGuardar.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -161,7 +160,7 @@ public class CargaDatos extends javax.swing.JFrame {
         });
 
         btnLimpiar.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
-        btnLimpiar.setIcon(new javax.swing.ImageIcon("C:\\Users\\Probando Uno\\OneDrive\\Escritorio\\escoba.png")); // NOI18N
+        btnLimpiar.setIcon(new javax.swing.ImageIcon("C:\\Users\\Probando Uno\\OneDrive\\Documentos\\NetBeansProjects\\PeluqueriaCanina\\src\\main\\resources\\escoba.png")); // NOI18N
         btnLimpiar.setText("Limpiar");
         btnLimpiar.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -169,7 +168,7 @@ public class CargaDatos extends javax.swing.JFrame {
             }
         });
 
-        jLabel1.setIcon(new javax.swing.ImageIcon("C:\\Users\\Probando Uno\\OneDrive\\Escritorio\\4800_10_09.jpg")); // NOI18N
+        jLabel1.setIcon(new javax.swing.ImageIcon("C:\\Users\\Probando Uno\\OneDrive\\Documentos\\NetBeansProjects\\PeluqueriaCanina\\src\\main\\resources\\4800_10_09.jpg")); // NOI18N
 
         javax.swing.GroupLayout containerCargaDatosLayout = new javax.swing.GroupLayout(containerCargaDatos);
         containerCargaDatos.setLayout(containerCargaDatosLayout);

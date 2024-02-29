@@ -60,7 +60,7 @@ public class VerDatos extends javax.swing.JFrame {
         labelTitleTable.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
         labelTitleTable.setText("Datos de mascotas:");
 
-        btnElimonar.setIcon(new javax.swing.ImageIcon("C:\\Users\\Probando Uno\\OneDrive\\Escritorio\\borrar.png")); // NOI18N
+        btnElimonar.setIcon(new javax.swing.ImageIcon("C:\\Users\\Probando Uno\\OneDrive\\Documentos\\NetBeansProjects\\PeluqueriaCanina\\src\\main\\resources\\borrar.png")); // NOI18N
         btnElimonar.setText("Eliminar");
         btnElimonar.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -68,7 +68,7 @@ public class VerDatos extends javax.swing.JFrame {
             }
         });
 
-        btnEditar.setIcon(new javax.swing.ImageIcon("C:\\Users\\Probando Uno\\OneDrive\\Escritorio\\editar.png")); // NOI18N
+        btnEditar.setIcon(new javax.swing.ImageIcon("C:\\Users\\Probando Uno\\OneDrive\\Documentos\\NetBeansProjects\\PeluqueriaCanina\\src\\main\\resources\\editar.png")); // NOI18N
         btnEditar.setText("Editar");
         btnEditar.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {

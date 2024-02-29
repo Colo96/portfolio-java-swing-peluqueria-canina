@@ -298,7 +298,7 @@
         <Component class="javax.swing.JLabel" name="labelImageEditarDatos">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\Probando Uno\OneDrive\Escritorio\4800_10_09.jpg"/>
+              <Image iconType="2" name="C:\Users\Probando Uno\OneDrive\Documentos\NetBeansProjects\PeluqueriaCanina\src\main\resources\4800_10_09.jpg"/>
             </Property>
           </Properties>
         </Component>
@@ -308,7 +308,7 @@
               <Font name="Segoe UI" size="18" style="1"/>
             </Property>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\Probando Uno\OneDrive\Escritorio\editar.png"/>
+              <Image iconType="2" name="C:\Users\Probando Uno\OneDrive\Documentos\NetBeansProjects\PeluqueriaCanina\src\main\resources\editar.png"/>
             </Property>
             <Property name="text" type="java.lang.String" value="Editar"/>
           </Properties>
@@ -322,7 +322,7 @@
               <Font name="Segoe UI" size="18" style="1"/>
             </Property>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\Probando Uno\OneDrive\Escritorio\escoba.png"/>
+              <Image iconType="2" name="C:\Users\Probando Uno\OneDrive\Documentos\NetBeansProjects\PeluqueriaCanina\src\main\resources\escoba.png"/>
             </Property>
             <Property name="text" type="java.lang.String" value="Limpiar"/>
           </Properties>
