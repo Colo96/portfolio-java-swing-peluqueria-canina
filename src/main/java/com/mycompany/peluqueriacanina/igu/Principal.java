@@ -26,6 +26,11 @@ public class Principal extends javax.swing.JFrame {
 
         btnSalir.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
         btnSalir.setText("Salir");
+        btnSalir.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnSalirActionPerformed(evt);
+            }
+        });
 
         btnCargarDatos.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
         btnCargarDatos.setText("Cargar Datos");
@@ -125,6 +130,10 @@ public class Principal extends javax.swing.JFrame {
         visualizar.setVisible(true);
         visualizar.setLocationRelativeTo(null);
     }//GEN-LAST:event_btnVerDatosActionPerformed
+
+    private void btnSalirActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnSalirActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btnSalirActionPerformed
 
 
 
